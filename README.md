@@ -15,12 +15,6 @@
 
 This repository contains the solution for the **Travel Reimbursement Approval Agent Case Study**. The system evaluates employee travel expense claims against corporate travel policy rules (Appendix A) using a hybrid **GenAI Agent + Deterministic Engine** pattern implemented in a single, self-contained Jupyter notebook (`sanketChavan.ipynb`).
 
-### 🎯 Key Deliverable Note
-As instructed in the assessment guidelines:
-> *"Single Notebook uploaded on GitHub with working repo (Shareable link) is the only deliverable (`sanketChavan.ipynb`) we will assess."*
-
-The notebook `sanketChavan.ipynb` is **100% self-contained and directly executable** from top to bottom. It installs all required packages automatically, requires no external file dependencies, cleanly handles API keys, and includes pre-rendered outputs, test suite results, and interactive dashboards.
-
 ---
 
 ## 🚀 Quick Start & Execution
