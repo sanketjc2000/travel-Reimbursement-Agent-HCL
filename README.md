@@ -49,6 +49,17 @@ You can run `sanketChavan.ipynb` directly in **Google Colab**, **VS Code**, or *
 2. Add your `GOOGLE_API_KEY` under Colab's **Secrets (🔑)** tab or enter it when prompted in Cell 4.
 3. Select **Runtime → Run all**.
 
+### Option C: Run Interactive Streamlit Web UI (Dynamic Claim Builder)
+
+For interactive graphical evaluation and dynamic claim creation:
+```bash
+streamlit run app.py
+```
+- **🎯 Dynamic Structured Form Builder**: Create and evaluate custom travel reimbursement claims dynamically. Add/remove expense line items, toggle receipts, select flight fare classes (`economy` vs `business/first`), and specify per-diem counts (nights/days).
+- **📋 Appendix B Benchmark Explorer**: Inspect and evaluate benchmark claims with 1 click.
+- **📊 4-Panel Results Dashboard**: View interactive decision distributions, financial breakdowns, and confidence scores across benchmark and dynamic claims.
+- **🖼️ Saved UI Artifacts**: Saved as [`UI SS_1.png`](UI%20SS_1.png) (Dashboard) and [`UI SS_2.png`](UI%20SS_2.png) (Streamlit Dynamic Claim Builder).
+
 ---
 
 ## 🏛️ System Architecture
@@ -124,6 +135,9 @@ The notebook includes a built-in automated test suite verifying:
 ```
 travel-Reimbursement-Agent-HCL/
 ├── sanketChavan.ipynb    # Main deliverable (Self-contained, runnable notebook)
+├── app.py                # Interactive Streamlit Web UI (Dynamic Claim Builder)
+├── UI SS_1.png           # User Interface Screenshot 1: Results Dashboard
+├── UI SS_2.png           # User Interface Screenshot 2: Streamlit Dynamic Claim Builder
 ├── README.md             # Project documentation and architectural overview
 └── .gitignore            # Git exclusion configuration (.env, cache)
 ```
